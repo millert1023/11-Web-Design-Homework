@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Humidity</title>
+
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- #Setting up Navigation Bar -->
+
+    <div class="container-fluid">
+    
+        <nav class="navbar navbar-default">
+
+            <div class="container-fluid">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand" href="landing.html"><span class="latitude">Latitude</a>
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                <ul class="nav navbar">
+                    
+                    <li>
+                        <div class="dropdown">
+
+                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Plots
+
+                                <span class="caret"></span>
+
+                            </button>
+
+                            <ul class="dropdown-menu">
+
+                                <li><a href="./visualization_1.html">Latitude vs. Max Temperature</a></li>
+
+                                <li><a href="./visualization_2.html">Latitude vs. Humidity</a></li>
+
+                                <li><a href="./visualization_3.html">Latitude vs. Cloudiness</a></li>
+
+                                <li><a href="./visualization_4.html">Latitude vs. Wind Speed</a></li>
+                           
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="./comparison.html"><span class="c-d">Comparison</a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="./data.html"><span class="c-d">Data</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+
+        <div class="content">
+
+            <div class="container-fluid">
+
+                <div class="row">
+
+                    <div class="col-sm-12 col-md-8">
+
+                        <div class="box">
+
+                            <h1>Humidity</h1>
+
+                            <img src="./images/Fig2.png" a;t="Latitude vs. Humidity" class="img-responsive">
+
+                            <p>
+                                There is little to no correlation between where a city is located and it's humidity.  
+                                However, the majority of the cities have high humidity.
+                            </p>
+
+                            
+                        </div>
+
+                    </div>
+                
+
+                    <div class="col-sm-12 col-md-4">
+
+                        <div class="box">
+
+                            <h1>Visualizations</h1>
+
+                            <a href="./visualization_1.html"><img src="./images/Fig1.png" alt="Latitude vs. Max Temperature" height="150" width="150"></a>
+
+                            <a href="./visualization_2.html"><img src="./images/Fig2.png" alt="Latitude vs. Humidity" height="150" width="150"></a>
+
+                            <a href="./visualization_3.html"><img src="./images/Fig3.png" alt="Latitude vs. Cloudiness" height="150" width="150"></a>
+
+                            <a href="./visualization_4.html"><img src="./images/Fig4.png" alt="Latitude vs. Wind Speed" height="150" width="150"></a>
+
+                        </div>
+                    </div>
+                
+                </div>
+
+            </div>
+        </div>
+        <footer>
+            <p>© Copyright Data Bootcamp 2020</p>
+        </footer>
+</body>
+</html>
+
